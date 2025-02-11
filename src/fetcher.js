@@ -1,4 +1,4 @@
-const BASE_URL = "https://ecom-seven-zeta.vercel.app";
+const BASE_URL = "https://ecom-1npbnxdsl-mohitsbhs-projects.vercel.app";
 
 export const fetcher = async (url) => {
   let responseObject = { errorMessage: '', data: [] };
