@@ -43,7 +43,7 @@ export const useCategories = () => {
 
   useEffect(() => {
     // Fetch categories when component mounts
-    getCategories('https://ecom-seven-zeta.vercel.app/categories');
+    getCategories('https://ecom-1npbnxdsl-mohitsbhs-projects.vercel.app/categories');
   }, [getCategories]); // Only call once when component mounts
 
   return {
@@ -60,7 +60,7 @@ export const useProducts = (id) => {
   useEffect(() => {
     if (id) {
       // Fetch products when `id` changes
-      getProducts('https://ecom-seven-zeta.vercel.app/products?catId=' + id);
+      getProducts('https://ecom-1npbnxdsl-mohitsbhs-projects.vercel.app/products?catId=' + id);
     }
   }, [id, getProducts]); // Only call when `id` or `getProducts` changes
 
